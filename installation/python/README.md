@@ -73,8 +73,8 @@ libraries that are also needed depending on what hardware you have on your robot
 the basic setup for getting the robot working from the ground up can be found here:
 [robotpy setup](https://docs.wpilib.org/en/latest/docs/zero-to-robot/step-2/python-setup.html)
 
-note when creating pyproject.toml with robotpy init the commands2 package is not included in the generated output
-to include the commands two package you can add "robotpy-commands-v2==2024.0.0b4" to the requires list. See
+note when creating pyproject.toml with robotpy init the commands2 package is not included in the generated output.
+To include the commands two package you can add "robotpy-commands-v2==2024.0.0b4" to the requires list. See
 [robotpy github](https://robotpy.github.io/) for more information regaruding this.
 
 Note that at the current moment commands2 is beta release so use at your own risk.
