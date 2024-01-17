@@ -78,3 +78,14 @@ to include the commands two package you can add "robotpy-commands-v2==2024.0.0b4
 [robotpy github](https://robotpy.github.io/) for more information regaruding this.
 
 Note that at the current moment commands2 is beta release so use at your own risk.
+
+---
+
+Note: if for whatever reason, the robotpy_version in your pyproject file is off, you can list out the version
+of installed packages with
+
+```bash
+python3 -m pip freeze
+```
+
+you can then match the robotpy version in this output to the toml file manually.
